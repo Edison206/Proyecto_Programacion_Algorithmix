@@ -1,0 +1,42 @@
+# ============================================
+# Archivos a ignorar por Git en este proyecto
+# ============================================
+
+# Base de datos local (cada quien tiene la suya)
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos subidos por usuarios
+media/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Archivos del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración locales
+.env
+.env.local
+*.log
+
+# Archivos generados por Django
+staticfiles/
